@@ -1,0 +1,100 @@
+/**
+ * Colors:
+ */
+html {
+    background-color: #ccc;
+}
+a, a:hover, a:visited, a:active, a:link{
+    color: #fff;
+}
+h4 {
+    color: #3cb84d;
+}
+.Logo {
+    display: block;
+    background-color: #002319;
+    background-image: url(logo.png);
+}
+.Login .header {
+    color:#fff;
+    background-color:#000;
+}
+.Login .content {
+    color:#fff;
+    background-color:#ddd;
+    border-color: #bbb;
+}
+.BasicDivTable {
+    border-color: #bbb;
+}
+.BasicDivTable .BasicDivHead {
+    background-color: #002319;
+    color: #ffffff;
+}
+.container-fluid {
+    background-color: #fff;
+}
+.modal-body {
+    background-color:#fff;
+}
+.modal-footer {
+    border-color: #555;
+    background-color:#f6f6f6;
+}
+.modal-backdrop {
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.modal-header {
+    background-color: #002319;
+    color: #fff;
+}
+.btn {
+    background-color: #3cb84d;
+    color: #fff;
+}
+
+.alert {
+    background-color:#fff;
+    border-color: #bbb;
+}
+
+#loadingmessage {}
+
+button,
+button:hover,
+button:focus,
+.btn,
+.btn:hover,
+.btn:focus,
+.btn.active,
+.btn-small,
+.btn-small:active,
+.btn-small:hover,
+.btn-small:focus {
+    cursor:pointer;
+    color: #fff;
+    background-color: #3cb84d;
+    border: 0;
+}
+button:hover,
+.btn:hover,
+.btn-small:hover {
+    color: #fff;
+    background-color: #2B9639;
+}
+.btn-small,
+.btn-small:active,
+.btn-small:hover,
+.btn-small:focus {
+    color:#fff;
+    background-color: #3cb84d;
+}
+.btn-small:hover {
+    color:#fff;
+    background-color: rgba(60, 184, 77, 0.8);
+}
+.btn.disabled,
+.btn[disabled] {
+    color: #fff;
+    background-color: #f2f2f2;
+}

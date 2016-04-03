@@ -1,0 +1,716 @@
+/**
+ * Colors:
+ */
+html {
+	background-color: #ccc;
+}
+a, a:hover, a:visited, a:active, a:link{
+	color:#6ba912;
+}
+h4 {
+	color: #3cb84d;
+}
+.Login .header {
+	color:#fff;
+	background-color:#000;
+}
+.Login .content {
+	color:#fff;
+	background-color:#ddd;
+	border-color: #bbb;
+}
+.BasicDivTable {
+	border-color: #bbb;
+}
+.BasicDivTable .BasicDivHead {
+ 	background-color: #002319;
+	color: #ffffff;
+}
+.container-fluid {
+	background-color: #fff;
+}
+
+.modal-body {
+	background-color:#fff;
+}
+.modal-footer {
+	border-color: #555;
+	background-color:#f6f6f6;
+}
+.modal-backdrop {
+	background-color:rgba(0, 0, 0, 0.6);
+}
+.modal-header {
+	background-color: #002319;
+	color: #fff;
+}
+.btn {
+	background-color: #3cb84d;
+	color: #fff;
+}
+
+.alert {
+	background-color:#fff;
+	border-color: #bbb;
+}
+
+#loadingmessage {
+	background-color: #fff;
+	border-bottom-color: #eee;
+}
+
+button,
+button:hover,
+button:focus,
+.btn,
+.btn:hover,
+.btn:focus,
+.btn.active,
+.btn-small,
+.btn-small:active,
+.btn-small:hover,
+.btn-small:focus {
+	cursor:pointer;
+	color: #fff;
+	background-color: #3cb84d;
+	border: 0;
+}
+
+button:hover,
+.btn:hover,
+.btn-small:hover {
+	color: #FFFFFF;
+	background-color: #2B9639;
+}
+
+.btn-small,
+.btn-small:active,
+.btn-small:hover,
+.btn-small:focus {
+	color:#ffffff;
+	background-color: #3cb84d;
+}
+
+.btn-small:hover {
+	color:#ffffff;
+	background-color: rgba(60, 184, 77, 0.8);
+}
+
+.btn.disabled,
+.btn[disabled] {
+	color: #ffffff;
+	background-color: #f2f2f2;
+}
+
+
+
+/**
+ * Main
+ */
+	html {
+		font-size: 15px;
+		font-family: Arial;
+		padding: 0;
+		margin: 0;
+	}
+
+	body {
+		padding: 0;
+		margin: 0;
+	}
+	a,
+	a:hover,
+	a:visited,
+	a:active,
+	a:link{
+		text-decoration:none;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		line-height: 1em;
+		font-weight: bold;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h4 {
+		font-size: 15px;
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+
+	h5 {
+		margin: 0 0 0.5em;
+		padding:0;
+		font-size: 1em;
+	}
+
+	p {
+		margin: 0 0 1em;
+		font-size: 1em;
+		line-height: 1.4em;
+	}
+
+	table {
+		border-collapse: separate;
+		border-spacing: 0;
+	}
+
+	label{
+		font-weight: bold;
+		display: block;
+		font-size: 1em;
+		padding: 0;
+		margin: 0 0 0.5em;
+	}
+
+
+/**
+ * Framework
+ */
+ 	.Logo {
+ 		padding: 1em 0;
+ 		margin: 0;
+ 		display: none;
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: 80px;
+		width: 100%;
+ 	}
+
+ 	.Content {
+ 		box-sizing: border-box;
+ 		width: 100%;
+ 		max-width: 700px;
+ 		margin: 0 auto;
+ 		padding: 1em;
+ 	}
+
+ 	.BasicDivTable {
+ 		margin-bottom: 1em;
+ 		overflow: hidden;
+ 		border-bottom-size: 2px;
+ 		border-bottom-style: solid;
+ 	}
+
+ 	.BasicDivTable .BasicDivHead {
+ 		line-height: 1em;
+ 		font-size: 1em;
+ 		padding: 1em;
+ 	}
+
+ 	.container-fluid {
+		padding: 1em;
+		*zoom: 1;
+	}
+	.container-fluid:before,
+	.container-fluid:after {
+		display: table;
+		line-height: 0;
+		content: "";
+	}
+	.container-fluid:after {
+		clear: both;
+	}
+
+	.row-fluid {
+		margin: 0 -1em;
+		clear: both;
+		*zoom: 1;
+	}
+	.row-fluid:before,
+	.row-fluid:after {
+		display: table;
+		line-height: 0;
+		content: "";
+	}
+	.row-fluid:after {
+		clear: both;
+	}
+
+	div[class*='span'] {
+		box-sizing: border-box;
+		padding: 0 1em;
+		float: left;
+	}
+
+	.span4  {width: 33.33333%}
+	.span8  {width: 66.66666%}
+	.span12 {width: 100%}
+
+ 	.button, .btn {
+ 		font-size: 1em;
+ 		line-height: 2.5em;
+ 		padding:0 2em;
+ 		margin: 0;
+ 		display: inline-block;
+ 	}
+
+ 	.button.isBig,
+ 	.btn.isBig {
+		min-width: 50%;
+		margin: 0 auto;
+		clear: both;
+		font-size: 1.2em;
+		height: 3em;
+		line-height: 3em;
+		padding: 0 3em;
+		font-weight: normal;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+	}
+
+ 	.pull-right {
+ 		float: right;
+ 	}
+
+ 	.hide {
+ 		display: none;
+ 	}
+
+ 	.text-center {
+ 		text-align: center;
+ 	}
+
+ 	.nextButton {
+ 		padding: 1em;
+ 	}
+
+ 	.Footer {
+		position:absolute;
+		bottom:0;		
+		height:36px;
+		width:100%;
+		background-position:bottom left;
+		background-repeat:no-repeat;
+	}
+
+
+/**
+ * Login box
+ */
+	.Login {}
+	.Login .header {
+		padding:2em;
+		text-align:center;
+	}
+	.Login .content {
+		padding:2em;
+		text-align:center;
+		border-bottom-size: 2px;
+		border-bottom-style: solid;
+	}
+
+/**
+ * Alerts
+ */
+ 	.alert {
+ 		box-sizing: border-box;
+ 		position: fixed;
+ 		top: 2em;
+ 		left: 50%;
+ 		margin-left: -200px;
+ 		width: 400px;
+ 		border-bottom-size: 2px;
+ 		border-bottom-style: solid;
+ 		padding: 1em;
+ 	}
+ 	.alert button {
+ 		float: right;
+ 		width: 2em;
+ 		height: 2em;
+ 		font-size: 1em;
+ 	}
+ 	.alert p {
+ 		margin: 0;
+ 		padding: 0;
+ 	}
+
+
+
+/**
+ * Input fields
+ */
+ 	.Form {}
+	.Form .input {
+		box-sizing: border-box;
+		font-size: 1em;
+		height: 2em;
+		line-height: 2em;
+		padding: 0 1em;
+	}
+	.Form .input.isBig {
+		width: 70%;
+		clear: both;
+		font-size: 1.2em;
+		height: 3em;
+		line-height: 3em;
+	}
+	input.input {
+		box-sizing: border-box;
+		font-size: 1em;
+		line-height: 2em;
+		height: 2em;
+		padding: 0 0.5em;
+		width: 100%;
+		margin: 0 0 1em;
+	}
+	select, option {
+		box-sizing: border-box;
+		display: inline-block;
+		font-size: 1em;
+		line-height: 2em;
+		padding: 0 1em;
+		width: 100%;
+		margin: 0 0 1em;
+    	word-wrap: break-word;
+    	-webkit-appearance: none;
+    	        border-radius: 0;
+    	-webkit-border-radius: 0;
+	}
+
+
+/**
+ * Modal window
+ */
+ 	.modal {
+ 		box-sizing: border-box;
+ 		z-index:10000;
+ 		position:fixed;
+ 		width: 100%;
+ 		height: 100%;
+ 		padding: 3em 0;
+ 		top: 0;
+ 		right: 0;
+ 		left: 0;
+ 		bottom: 0;
+ 		padding: 1em;
+ 		overflow: auto;
+ 	}
+ 	.modal.hide {
+ 		display: none;
+ 	}
+ 	.modal-body {
+ 		box-sizing: border-box;
+ 		width: 100%;
+ 		max-width: 600px;
+ 		margin: 0 auto;
+ 		padding: 1em;
+ 		overflow: auto;
+
+ 	}
+	.modal-footer {
+ 		box-sizing: border-box;
+ 		width: 100%;
+ 		max-width: 600px;
+ 		margin: 0 auto;
+ 		padding: 1em;
+ 		border-bottom.size: 2px;
+ 		border-bottom-style: solid;
+ 		text-align: right;
+ 		box-shadow: 0px 1px 0px rgb(255, 255, 255) inset;
+ 	}
+ 	.modal-backdrop {
+ 		z-index:9999;
+ 		position:fixed;
+ 		top:0;
+ 		left:0;
+ 		width:100%;
+ 		height:100%;
+ 	}
+ 	.modal-header {
+ 		box-sizing: border-box;
+ 		margin-top: 2em;
+ 		width: 100%;
+ 		max-width: 600px;
+ 		margin: 0 auto;
+ 		padding: 1em;
+		line-height: 2em;
+		display:block;
+		font-weight: bold;
+	}
+	.modal-header .close {
+		height: 2em;
+	    width: 2em;
+	    line-height: 2em;
+	    padding: 0;
+	    margin: 0;
+	    float: right;
+	    text-align: center;
+	    vertical-align: middle;
+	    font-size: 1em;
+	}
+
+	.modal-header h3 {
+		font-size: 26px;
+		font-weight: normal;
+	}
+
+	.modalDivContainer{
+		float:left;
+		width:100%;
+	}
+	.modalDivContainer .left {
+		box-sizing: border-box;
+		padding-right: 2em;
+		float:left;
+		width: 65%;
+	}
+	.modalDivContainer img {
+		margin-left: 5px;
+	}
+	.modalDivContainer .right{ 
+		float:right;
+		width: 35%;
+	}
+
+
+/**
+ * Media queries - desktop first
+ */
+ 	@media (max-width: 600px) {
+ 		html {font-size: 14px;}
+
+ 		.Logo {
+ 			height: 60px;
+ 		}
+		.Form .input.isBig {
+			width: 100%;
+		}
+	}
+
+#formInput p a {
+	color: #3cb84d;
+	display: block;
+	font-size: 14px;
+	line-height: 25px;
+}
+#formInput p a:hover {color: #2B9639;}
+
+
+.pwvalid {
+	padding: 5px;
+	margin-left: 5px;
+	border-color: #999;
+	border-width: 1px;
+	border-style: solid;
+}
+
+
+/* bootstrap buttons customized */
+.help-box {   
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px dashed #dadada;
+	padding: 10px 20px 10px 20px;
+	background-color: #ffffff;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+	border-color: rgba(0, 0, 0, 0.8);
+	outline: 0;
+	outline: thin dotted \9;
+	/* IE6-9 */
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+	   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+			box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.input-prepend.marginTop {
+	margin-top: 25px;
+}
+
+@media only screen and (min-width: 0px) {
+
+	html{
+		height:100%;
+	}
+
+	body { 
+		margin-left:auto;
+		margin-right:auto;
+		padding-bottom:-18px;		
+		width:100%;
+		height:100%;
+	}
+
+	#siteContainer{
+		min-height:100%;
+		position:relative;
+	}
+
+	#errorMessage{
+		display: none;
+		margin-bottom: 0px;
+	}	
+
+	button.linkButton{
+		font-size:14px; 
+		line-height:16px;
+		color:#669900;
+		height:50px;
+		background-color:transparent;
+		border-width:0px;
+	}
+
+	#terms {
+		height: 200px;
+		overflow-y: auto;
+	}
+	.row-fluid.smallScreen [class*="span"] {
+		float: left;
+		width: auto;
+	}
+	.input-prepend.marginTop {
+		margin-top: 0px;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 600px) {
+
+	html{height:100%;}	
+
+
+	body { 
+		margin-left:auto;
+		margin-right:auto;
+		padding-bottom:-36px;		
+		width:100%;
+		height:100%;
+	}
+
+	#siteContainer{min-height:100%; position:relative;}
+
+	#errorMessage{display:none;margin-bottom:0px; }
+
+	input[type=text]{
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	input[type=password]{
+		padding-left:10px;
+		padding-right:10px;
+	}
+
+	#terms {
+		height: 400px;
+		overflow-y: auto;
+	}
+	.row-fluid.smallScreen [class*="span"] {
+		float: left;
+		width: auto;
+	}
+
+	#passwordHelpBox {
+		float: right;
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+
+	html{height:100%;}
+
+	body { 
+		margin-left:auto;
+		margin-right:auto;
+		padding-bottom:-36px;
+		width:100%;
+		height:100%;
+	}
+
+	#siteContainer{min-height:100%; position:relative;}
+
+	#errorMessage{display:none;margin-bottom:0px; }
+
+	#terms {
+		height: 600px;
+		overflow-y: auto;
+	} 
+	.row-fluid.smallScreen [class*="span"] {
+		float: left;
+		width: auto;
+	}
+	#passwordHelpBox {
+		float: right;
+	}
+}
+
+@media (min-width: 801px) {	
+
+	#errorMessage{display:none;margin-bottom:0px; }	
+
+	#terms {
+		height: 800px;
+		overflow-y: auto;
+	}
+}
+
+@media only screen and (min-width: 960px)  {
+
+	html {
+		height:100%;
+	}
+
+	body { 
+		margin-left:auto;
+		margin-right:auto;
+		padding-bottom:-36px;		
+		width:100%;
+		height:100%;
+	}
+
+	#siteContainer{min-height:100%; position:relative;}
+	#errorMessage{display:none;margin-bottom:0px; }	
+	#terms {
+		overflow-y: auto;
+	}
+}
+
+
+#loadingmessage {
+	box-sizing: border-box;
+	z-index:10001;
+	position: fixed;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+
+	border-bottom-size: 2px;
+	border-bottom-style: solid;
+
+	width: 100%;
+	left: 0;
+	top: 0;
+	
+	/*width: 300px;
+	left: 50%;
+	top:50%;
+	margin-left: -150px;
+	margin-top: -50px;
+	*/
+}
+#loadingmessage img {
+	width: 16px;
+	height: 16px;
+}
