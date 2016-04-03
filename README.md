@@ -1,2 +1,0 @@
-# hackers.mu
-simple frontend
